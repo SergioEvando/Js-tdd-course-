@@ -1,0 +1,16 @@
+{
+  "name": "project_sac",
+  "version": "1.0.0",
+  "description": "curso js com tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library"
+  ],
+  "author": "Sergio Costa",
+  "license": "ISC"
+}

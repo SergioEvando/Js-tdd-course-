@@ -1,0 +1,9 @@
+root = true                           #permite que todos os ideais interpretem o editor config
+
+[*]                                   #significa que todos os arquivos serão analizados
+ident_style = space                   #preferencial   
+indent_size = 2                       #tamanho definido pelo AirBNB
+end_of_line = lf 
+charset = utf-8                       #sistema de lestras
+trim_trailing_whitespace = true       #no momento de salvar, sempre irá retirar o espaço após o ultimo caractere
+insert_final_newline = true           #no fim do arquivo sempre será posto uma linha a mais

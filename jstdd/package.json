@@ -1,0 +1,42 @@
+{
+  "name": "jstdd",
+  "version": "1.0.0",
+  "description": "curso de js com tdd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "./node_modules/.bin/eslint src/**/*.js",
+    "prepush": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SergioEvando/Js-tdd-course-.git"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "labrory"
+  ],
+  "author": "SergioCosta <sergioevando@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SergioEvando/Js-tdd-course-/issues"
+  },
+  "homepage": "https://github.com/SergioEvando/Js-tdd-course-#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-prettier": "^2.6.2",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-standard": "^4.0.0",
+    "husky": "^1.0.1"
+  },
+  "dependencies": {}
+}
